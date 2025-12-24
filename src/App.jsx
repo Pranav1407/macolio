@@ -1,6 +1,10 @@
+import Navbar from "#components/Navbar.jsx";
+
 const App = () => {
     return (
-        <div className={"text-3xl font-bold underline"}>MacFolio App</div>
+        <main>
+            <Navbar />
+        </main>
     )
 }
 export default App
